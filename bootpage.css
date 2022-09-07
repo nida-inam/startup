@@ -1,0 +1,40 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family:sans-serif ;
+	background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-family:Uncial Antiqua ;
+	font-size: 3em;
+	color: white;
+	text-transform: uppercase;
+
+}
+hr {
+	border-color:darksalmon ;
+	border-width: 4px;
+	max-width: 65px;
+}
+.btn-primary{
+border-radius: 300px;
+padding: 1em 2em;
+text-transform: uppercase;
+font-weight: 700;
+background-color: darksalmon;
+border-color: darksalmon;
+}
+
+.btn-primary:hover{
+background-color: salmon;
+border-color: white;
+border-width: 4px;
+}
+.buffer{
+	height: 12em;
+}
